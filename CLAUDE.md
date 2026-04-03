@@ -36,8 +36,8 @@ bash scripts/verify.sh
 |---|---|---|
 | `POST /purchase/none` | ロックなし | 実装済 |
 | `POST /purchase/pessimistic` | 悲観的ロック (SELECT FOR UPDATE) | 実装済 |
-| `POST /purchase/optimistic` | 楽観的ロック (version) | 未実装 |
-| `POST /purchase/lock` | ネームドロック (GET_LOCK) | 未実装 |
+| `POST /purchase/optimistic` | 楽観的ロック (version) | 実装済 |
+| `POST /purchase/lock` | ネームドロック (GET_LOCK) | 実装済 |
 
 ## アーキテクチャ
 
